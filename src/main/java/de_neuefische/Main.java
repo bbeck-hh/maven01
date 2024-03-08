@@ -9,10 +9,26 @@ public class Main {
         return a+b;
     }
 
+    public static int calcProduct(int a, int b) {
+        return a*b;
+    }
+
     public static boolean isEven(int a) {
         if (a%2 == 0){
             return true;
         }
         return false;
     }
+
+    public static String convertToUpperCase (String inputString){
+        return inputString.toUpperCase();
+    }
+
+    public static boolean isPositiveNumber (int a){
+        if (a%2 == 0){
+            return true;
+        }
+        return false;
+    }
+
 }
